@@ -8,7 +8,7 @@
 grep -o '^[^:]*' /etc/passwd | sort
 ```
 
-
+![image](pictures/image.png)
 
 ## Задача 2
 
