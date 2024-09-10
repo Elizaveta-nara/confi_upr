@@ -47,23 +47,11 @@ cat /etc/protocols | awk '{print $2, $1}' | sort -nr | head -n 5
 Перед отправкой решения проверьте его в ShellCheck на предупреждения.
 
 Решение:
-```bash
-#!/bin/bash
-text=$1
-size=${#text}
-echo -n "+"
-for ((i = -2; i < size; i++))
-do
-echo -n "-"
-done
-echo "+"
-echo "| $text |"
-echo -n "+"
-for ((i = -2; i < size; i++))
-do
-echo -n "-"
-done
-echo "+"
+```a = input('Введите текст: ')
+print("+" + "-"*(len(a)+2) + "+")
+print("| " + a + " |")
+print("+" + "-"*(len(a)+2) + "+")
+
 ```
 
 
