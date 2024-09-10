@@ -1,12 +1,14 @@
 
 ## Задача 1
 
+
 Вывести отсортированный в алфавитном порядке список имен пользователей в файле passwd (вам понадобится grep).
 
 Решение:
 ```bash
 grep -o '^[^:]*' /etc/passwd | sort
 ```
+
 
 ![image](pictures/image.png)
 
@@ -27,6 +29,8 @@ grep -o '^[^:]*' /etc/passwd | sort
 ```bash
 cat /etc/protocols | awk '{print $2, $1}' | sort -nr | head -n 5
 ```
+
+![image](pictures/image_2.png)
 
 
 ## Задача 3
