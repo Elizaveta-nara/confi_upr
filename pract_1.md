@@ -51,10 +51,9 @@ cat /etc/protocols | awk '{print $2, $1}' | sort -nr | head -n 5
 print("+" + "-"*(len(a)+2) + "+")
 print("| " + a + " |")
 print("+" + "-"*(len(a)+2) + "+")
-
 ```
 
-
+![image](pictures/image_3.jpg)
 
 ## Задача 4
 
