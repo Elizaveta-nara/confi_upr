@@ -13,3 +13,5 @@ print("Описание:", matplotlib.__doc__)
 
 
 ![image](pictures/photo_5445117370336141990_y.jpg)
+![image](pictures/photo_5445117370336141991_y.jpg)
+![image](pictures/photo_5445117370336141992_y.jpg)
