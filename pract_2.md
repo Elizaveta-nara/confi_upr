@@ -12,4 +12,4 @@ print("Описание:", matplotlib.__doc__)
 ```
 
 
-![image](pictures/image.png)
+![image](pictures/photo_5445117370336141990_y.jpg)
